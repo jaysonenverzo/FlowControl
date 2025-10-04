@@ -19,7 +19,7 @@ namespace FlowControl
 
             if (age <= 17 || age >= 60)
             {
-                Console.WriteLine("Add miinor and senior discount");
+                Console.WriteLine("Add minor and senior discount");
             }
             else if (isPWD)
             {
@@ -34,15 +34,16 @@ namespace FlowControl
             var pwdString = Console.ReadLine();
             var pwd = bool.Parse(pwdString);
 
+
             if (pwd == true) {
                 Console.WriteLine("Add discount pwd eh");
             }
             else
             {
-                Console.WriteLine("No dc");
+                Console.WriteLine("No dc"); 
             }
     
-   
+ 
        
         } 
     }
